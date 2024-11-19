@@ -1,0 +1,350 @@
+body{
+    margin: 0px;
+    padding:0px;
+    overflow: hidden;
+    background-color: black;
+}
+.main{
+   display: flex;
+   height: 100vh;
+   font-size: large;
+    
+ }
+ 
+.sidebar{
+    width: 26.12rem;
+    /* height:34.6rem; */
+    height: 100vh;
+    background-color:black;
+    color: white;
+  
+   
+}
+.main-content{
+    flex:1;
+    background-color:#ffffff1a;
+    overflow: scroll;
+    
+    
+}
+ 
+.nav{
+    height: 7rem;
+    text-decoration: none;
+    padding: 0.25rem 1rem;
+    background-color:#ffffff1a;
+    line-height:3rem ;
+    border-radius: 0.5rem;
+    margin:0.5rem ;
+    margin-left: 0.5rem;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 0.75rem;
+    font-size: large;
+    opacity: 0.6;
+}
+.nav a:hover{
+    opacity: 1;
+}
+.nav i{
+    font-size: larger;
+    margin-left: 0.6rem;
+}
+.nav-option{
+    height: 100vh;
+    background-color:#ffffff1a ;
+    border-radius: 0.5rem;
+    margin:0.5rem ;
+    margin-left: 0.5rem;
+}
+.nav-option .library{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    height: 4.5rem;
+    line-height: 3.75rem;
+  
+
+}
+.nav-option .library1{
+    margin-right: 0.75rem;
+    font-size: large;
+   
+}
+.nav-option .library1 a{
+    color: white;
+    padding-bottom: 0.75rem;
+}
+.nav-option .library2 i{
+    color: white;
+    font-size: 1rem;
+
+}
+.library #a{
+    margin-right:0.75rem ;
+}
+.nav-option img{
+    height: 1.25rem;
+    width: 1.5rem;
+    margin-right: 0.75rem;
+}
+.card{
+    height: 8rem;
+    background-color: #1f1f1f;
+    margin: 0.5rem 0rem;
+    margin: 0;
+    padding: 1rem 1.25rem;
+    padding-top: 0.5rem;
+    font-size: larger;
+    border-radius: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-weight: 700;
+    align-content: center;
+   
+}
+.bledge button{
+    height: 2rem;
+    width: 7.81rem;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    
+}
+.bledge1 button{
+    height: 2rem;
+    width: 7.81rem;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    
+}
+.card .info{
+    margin-top: 1rem;
+}
+#card1{
+    margin-bottom: 1rem;
+}
+.main-content{
+background-color: #ffffff1a;
+
+
+
+}
+.nav-stiky{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    background-color: black;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    
+}
+#arrow{
+    font-size:1.5rem;
+    margin :0.5rem 0 0 1.5rem ;
+}
+#arrow-box{
+    color:white;
+    margin: 0.5rem;
+    
+}
+.bledge1{
+    width: 100%;
+    height: 3.5rem;
+}
+
+.main-option{
+    justify-content: baseline;
+}
+
+h2{
+    color: white;
+    margin-left: 1rem;
+    font-size: xx-large;
+}
+.shows{
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+}
+.card1{
+    height: 15rem;
+    width: 10.35rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+.card1 img{
+    width: 100%;
+    height: 10rem;
+    border-radius: 0.5rem;
+    
+}
+.card1:hover{
+    box-shadow: 2px 2px 5px black;
+    transform: scale(0.9);
+    transition-duration: 1.5s;
+    
+}
+.card3{
+    height: 15rem;
+    width: 10.35rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+.card3 img{
+    width: 100%;
+    height: 10rem;
+    border-radius: 0.5rem;
+    
+}
+.card3:hover{
+    box-shadow: 2px 2px 5px black;
+    transform: scale(1.1);
+    transition-duration: 1.5s;
+    
+}
+.footer{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    line-height: 1.5rem;
+    
+}
+.company a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.8;
+    font-size:1rem;
+}
+.communities a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.8;
+    font-size: 1rem;
+}
+.usefull a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.8;
+    font-size: 1rem;
+
+}
+.spotifyplan a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.8;
+    font-size: 1rem;
+
+}
+.socialmedia {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+   
+
+}
+.socialmedia i{
+    color: white;
+    opacity: 0.8;
+    margin: 0.75rem;
+    padding-top: 1rem;
+}
+a:hover{
+    opacity: 1;
+}
+.line{
+    border: 0.1px solid white;
+    opacity: 0.5;
+    width: 90%;
+   margin-left: 3rem;
+   margin-top: 3rem;
+}
+.contect{
+    margin-top: 2rem;
+}
+.contect a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    margin-left: 1rem;
+    opacity: 0.3;
+}
+.contect a:hover{
+    opacity: 1;
+    color: white;
+   
+}
+.contect i{
+    margin-left: 6rem;
+}
+.i:hover{
+    opacity: 1;
+
+}
+
+
+.music-player{
+    position: fixed;
+    width: 100vw;
+    height: 4.75rem;
+    bottom: 0px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.music-player i img{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0.5rem;
+}
+
+.play{
+
+    padding-left:8rem ;
+}
+
+.music-bar input{
+   width: 25rem;
+   bottom: 0;
+   appearance: none;
+  background-color: white;
+  border-radius: 2rem;
+  border: 2px solid none;
+}
+input[type="range"] {
+    
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 15px;
+    height: 6px;
+    background: blue;
+  }
+
+
+.card1{
+    width: 10.25rem;
+    height: 15rem;
+    background-color:#0000005a;
+    border-radius: 0.5rem;
+}
+
+
